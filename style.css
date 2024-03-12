@@ -1,0 +1,157 @@
+body {
+  background-color: #000000;
+  height: 100%;
+}
+
+footer {
+  height: 150px;
+  width: 100%;
+}
+
+.form-none {
+  display: none;
+}
+
+.main {
+  min-height: 100vh;
+}
+
+.bg-purple-custom {
+  background-image: linear-gradient(340deg, #6e4e9e 0%, #79609f 100%);
+}
+.bg-purple-blue-pink {
+  background-image: linear-gradient(19deg, #5e7995 0%, #966596 100%);
+}
+.bg-pink-custom {
+  background-image: linear-gradient(19deg, #ae5eae 0%, #8d6363 100%);
+}
+.bg-orange-custom {
+  background-image: linear-gradient(62deg, #723b3b 0%, #d1d172 100%);
+}
+.bg-darkpink-custom {
+  background-image: linear-gradient(62deg, #ca6262 0%, #d3b6b6 100%);
+}
+
+.recipe-card-border {
+  border: 1px solid #783eb3;
+}
+
+.carbs {
+  background-color: #1010c4;
+}
+
+.protein {
+  background-color: #614e56;
+}
+
+.fats {
+  background-color: #31bd31;
+}
+
+.show {
+  display: contents;
+}
+
+.img-div {
+  width: 18.75rem;
+  height: 18.75rem;
+}
+
+.meal-image {
+  object-fit: fill;
+  max-height: 18.75rem;
+  max-width: 18.75rem;
+}
+
+.meal-card {
+  max-width: 18.75rem;
+}
+
+.bg-lightblue-custom {
+  background-color: #a2135b;
+  background-image: linear-gradient(0deg, #453535 0%, #545f5f 100%);
+}
+
+.heartBtn {
+  color: #700404;
+  font-size: 1.25rem;
+  margin: 0.5rem;
+  position: absolute;
+  background-image: linear-gradient(340deg, #6727e6 0%, #8218eb 100%);
+  border-radius: 50%;
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.heartBtn:hover {
+  background-image: linear-gradient(19deg, #50293c 0%, #5f245f 100%);
+  transform: scale(1.1);
+}
+
+.cookbookBtn {
+  background-image: linear-gradient(340deg, #6d525f 0%, #624249 100%);
+}
+.cookbookBtn:hover {
+  transform: scale(1.1);
+  background-image: linear-gradient(340deg, #532d8d 0%, #ae0dae 100%);
+}
+
+.inactive-tab {
+  pointer-events: none;
+}
+
+.active {
+  color: #0d0a0f;
+}
+.purple-tab {
+  color: #0b090b;
+}
+
+.not-allowed {
+  cursor: not-allowed;
+}
+
+.randomBtn {
+  color: #0c0505;
+  font-size: 1.25rem;
+  margin: 0.5rem;
+  position: absolute;
+  background-image: linear-gradient(160deg, #1f4e4e 0%, #7c4747 100%);
+
+  border-radius: 50%;
+  height: 2.5rem;
+  width: 2.5rem;
+}
+.randomBtn:hover {
+  background-image: linear-gradient(0deg, #2f819e 0%, #a63434 100%);
+
+  transform: scale(1.1);
+}
+
+.footer-border {
+  border-top: 1px solid rgba(0, 235, 59, 0.1);
+}
+
+.event-none {
+  pointer-events: none;
+}
+
+.expand {
+  transition: all 0.3s ease-in-out;
+}
+
+.expand:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+
+span{
+   color: white;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 25px;
+}
+
+img{
+  width: 90px;
+  height: 68px;
+}
