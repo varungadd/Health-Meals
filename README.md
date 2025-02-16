@@ -1,4 +1,6 @@
 HEALTHY MEALS
+
+
 A web application designed to help users find and prepare healthy meals based on their dietary preferences and nutritional needs.
 
 📋 Table of Contents
